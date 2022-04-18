@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+body {
+  background-color: black;
+}
+
+main {
+  width: fit-content;
+  margin: auto;
+}
+
+.fond {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-inline: 1rem;
+  margin-block-start: 0.3rem;
+  background-color: #333333;
+}
+
+.space-evenly {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-title {
+  color: white;
+  font-size: 0.8rem;
+  padding-inline: 0.3rem;
+  margin-block-start: 0.2rem;
+  background-color: #990000;
+}
+
+.date-detail {
+  width: 100%;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-block-start: 0.2rem;
+  border: 1.5px solid grey;
+  border-style: outset;
+}
+
+.red {
+  color: #eb5e29;
+  background-color: #1e0c05;
+}
+
+.green {
+  color: #4f9646;
+  background-color: #0d190b;
+}
+
+p {
+  color: white;
+  margin-block: 0.5rem;
+  padding: 0.2rem;
+  background-color: black;
+}
+
+.info {
+  width: 100%;
+  margin-block-start: 0.5rem;
+}
